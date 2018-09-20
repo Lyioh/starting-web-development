@@ -7,9 +7,10 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!------Link Font Awesome ---------  Pour petit Icones --------->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700,800,900">
 </head>
 
 <body>
@@ -35,23 +36,33 @@
     <!--------------------/////////////// Les films favoris ////////////------------------->
     <div class="movies">
         <h2>His Favorite movies</h2>
-        <p class="odyssey">
-            <table>
-                <tr>
-                    <td rowspan="4"><img src="images/odyssey.jpg" alt="odyssey"></td>
-                </tr>
-                <tr>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td>2001 - Space Odyssey</td>
-                </tr>
-                <tr>
-                    <td>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and,
-                        with the intelligent computer H.A.L.9000,sets off on a quest.</td>
-                </tr>
-            </table>
-        </p>
+        <!-----------------////// Film Odyssey //////// --------->
+        <table class="odyssey">
+            <tr>
+                <td><img src="images/odyssey.jpg" alt="odyssey"></td>
+                <td><b>2001 - Space Odyssey</b><br /><br />
+                    Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and,
+                    with the intelligent computer H.A.L.9000,sets off on a quest.</td>
+            </tr>
+        </table>
+        <!-------------///////// Film Monsieur Hulot ////////// ------------>
+        <table class="hulot">
+            <tr>
+                <td><img src="images/hulot.jpg" alt="Mr Hulot"></td>
+                <td><b>Monsieur Hulot</b><br /><br />
+                    Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but
+                    good-naturedly) cause havoc.</td>
+            </tr>
+        </table>
+        <!----------/////////// Film Alien //////////// ------------------->
+        <table class="alien">
+            <tr>
+                <td><img src="images/alien.jpg" alt="Aliens"></td>
+                <td><b>Alien</b><br /><br />
+                    The commercial vessel Nostromo receives a distress call from an unexplored planet. After searching
+                    for survivors, the crew heads home only to realize that a deadly bioform has joined them.</td>
+            </tr>
+        </table>
     </div>
 </body>
 

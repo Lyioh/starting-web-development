@@ -1,1 +1,58 @@
+body {
+    margin: 0 auto;
+    background-color: #EBEBEB;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;      
+    */
+}
 
+header, .lesLiens, .movies {
+    display: block;
+    justify-self: center;
+    background-color: #FFFFFF;
+}
+
+/* ========================= Le Header ========================*/
+
+header {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+header h1 {
+    color: #DD5555;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800; 
+    font-size: 120%;
+}
+
+header h2 {
+    color: #7D7D7D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    letter-spacing: 0px;
+}
+/* --------------La photo ----------------- */
+.photo {
+    overflow: hidden;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #D2D2D2;
+}
+
+/* ============================ Les liens ====================== */
+
+.lesLiens {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+/*=========================== Les films ========================= */
+
+.movies {
+    grid-area: 3 / 2 / 4 / 3;
+}
