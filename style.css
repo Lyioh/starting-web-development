@@ -116,6 +116,8 @@ li {
 .movies {
     grid-area: 3 / 2 / 4 / 3;
     margin-bottom: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .movies h2 {
@@ -126,14 +128,26 @@ li {
     padding-top: 15px;
 }
 
+.movies p {
+    padding-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7D7D;
+    font-weight: 300;
+    text-align: justify;
+}
 .movies img {
-    height: 200px;
+    height: 150px;
 }
 
-.odyssey, .hulot, .alien {
+.movies h3 {
+    margin: 0;
+    text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: #7D7D7D;
     font-style: 120%;
-    text-align: justify;
+    text-align: center;
 }
 
+.odyssey, .hulot, .alien {
+    margin-top: 20px;
+}
