@@ -85,6 +85,29 @@ header p {
 
 .lesLiens {
     grid-area: 2 / 2 / 3 / 3;
+    padding-top: 35px;
+    padding-bottom: 33px;
+}
+
+.fa-facebook-f, .fa-linkedin-in, .fa-twitter {
+    padding-bottom: 8px;
+}
+
+ul {
+    list-style-type: none;
+}
+li {
+    float: left;
+}
+
+.lesLiens a {
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #D9D9D9;
+    text-decoration: none;
+    margin-right: 25px;
+    font-weight: 500;
 }
 
 /*=========================== Les films ========================= */
