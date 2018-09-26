@@ -114,6 +114,9 @@ li {
     display: inline-block; 
 }
 
+.twitIcone {
+    padding-left: 8px;
+}
 /*=========================== Les films ========================= */
 
 .movies {
