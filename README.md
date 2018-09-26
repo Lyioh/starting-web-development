@@ -1,9 +1,9 @@
-#The work
+# The work
 ===============
 Here they ask us to make a website from a picture.
 
 
-##How did i manage this?
+# How did i manage this?
 ==============
 * The first step
 
