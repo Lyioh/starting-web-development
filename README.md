@@ -1,10 +1,10 @@
 # The work
-===============
+
 Here they ask us to make a website from a picture.
 
 
 # How did i manage this?
-==============
+
 * The first step
 
    To start i have build the skeleton. I mean the html.  
