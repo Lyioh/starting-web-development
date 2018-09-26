@@ -120,7 +120,7 @@ li {
     margin-bottom: 20px;
     padding-left: 5%;
     padding-right: 5%;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .movies h2 {
@@ -161,4 +161,23 @@ li {
 
 .odyssey, .hulot, .alien {
     margin-top: 20px;
+}
+
+.hulot {
+    padding-bottom: 15px;
+}
+
+.odyssey img {
+    position: relative;
+    top: 15px;
+}
+
+.hulot img {
+    position: relative;
+    top: 20px;
+}
+
+.alien img {
+    position: relative;
+    top: 30px;
 }
