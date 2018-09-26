@@ -29,7 +29,7 @@ header, .lesLiens, .movies {
 header {
     margin-top: 10px;
     padding-top: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
     margin-top: 20px;
     text-align: center;
 }
@@ -120,6 +120,7 @@ li {
     margin-bottom: 20px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 30px;
 }
 
 .movies h2 {
@@ -128,6 +129,7 @@ li {
     font-weight: 700;
     font-size: 120%;
     padding-top: 15px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -137,6 +139,8 @@ li {
     color: #7D7D7D;
     font-weight: 300;
     text-align: justify;
+    letter-spacing: 0px;
+    align-self: end;
 }
 .movies img {
     height: 150px;
@@ -149,6 +153,10 @@ li {
     color: #7D7D7D;
     font-style: 120%;
     text-align: center;
+}
+
+.movies span {
+    background-color: rgb(212, 212, 212);
 }
 
 .odyssey, .hulot, .alien {
