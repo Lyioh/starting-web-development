@@ -16,6 +16,6 @@ Here they ask us to make a website from a picture.
    After i have start to work on the **.CSS**.
    There were 3 part on the project.
    I have build a grid to manage those 3 part individualy.
-   After a lot of work here is [the result.](https://lyioh.github.io/starting-web-development/)
+   After some work here is [the result.](https://lyioh.github.io/starting-web-development/)
    
    
